@@ -48,7 +48,7 @@ exec /opt/web3signer/bin/web3signer \
   --metrics-host-allowlist="*" \
   --idle-connection-timeout-seconds=900 \
   eth2 \
-  --network=$NETWORK \
+  --network=${NETWORK} \
   --slashing-protection-db-url=jdbc:postgresql://postgres.web3signer-prater.dappnode:5432/web3signer \
   --slashing-protection-db-username=postgres \
   --slashing-protection-db-password=password \
